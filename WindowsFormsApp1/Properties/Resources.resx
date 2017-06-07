@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="yawning-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\yawning-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="punk-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\punk-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gentleman-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\gentleman-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in-love-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\in-love-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goofy-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\goofy-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yawning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\yawning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="listening" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\listening.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shocked-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\shocked-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\jew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rich-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\rich-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yelling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\yelling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\baby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arguing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\arguing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wink-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\wink-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flirty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\flirty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="evil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\evil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sceptic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sceptic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flirt-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\flirt-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20161118_190028" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20161118_190028.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sad-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sad-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hipster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\hipster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angry-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\angry-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\emo-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miserly-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\miserly-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smug-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smug-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gentleman-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\gentleman-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nerd-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\nerd-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goofy-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\goofy-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\clown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scared-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\scared-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nerd-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\nerd-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rich-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\rich-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detective" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\detective.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="confused" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\confused.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sad-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sad-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dazed-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dazed-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="harry-potter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\harry-potter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\japan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pirate-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\pirate-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smug-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smug-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winking-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\winking-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in-love-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\in-love-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gentleman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\gentleman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baby-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\baby-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gangster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\gangster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hipster-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\hipster-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\afro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superhero-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\superhero-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\scared.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angry-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\angry-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheeky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\cheeky.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trendy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\trendy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sporty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sporty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dead-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dead-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drunk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\drunk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desperate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\desperate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\angel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tired-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\tired-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\shocked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rockstar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\rockstar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nerd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\nerd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geek-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\geek-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superhero-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\superhero-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\manly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rapper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\rapper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pirate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\pirate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smug-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smug-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bully" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\bully.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sick-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sick-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laughing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\laughing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in-love" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\in-love.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="love" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\love.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiss-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\kiss-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\emo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asian-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\asian-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smug-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smug-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\angry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sceptic-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sceptic-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goofy-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\goofy-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dead-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dead-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dead-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dead-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheeky-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\cheeky-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tired" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\tired.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superhero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\superhero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scared-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\scared-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tired-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\tired-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sick-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sick-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="regular_smile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regular_smile.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="confused-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\confused-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sceptic-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sceptic-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smiling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smiling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dazed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dazed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nerd-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\nerd-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\crying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in-love-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\in-love-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\rich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dumb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\winking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dead-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dead-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smoked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smoked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FB_IMG_1475781151635" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FB_IMG_1475781151635.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afro-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\afro-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faint-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\faint-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vampire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\vampire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adele-2017-Wallpaper-10969" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adele-2017-Wallpaper-10969.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scared-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\scared-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sceptic-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sceptic-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joyful" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\joyful.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smug-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smug-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\kiss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sceptic-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sceptic-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tough" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\tough.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in-love-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\in-love-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flirt-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\flirt-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joyful-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\joyful-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\asian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\girl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grubby-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\grubby-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stunned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\stunned.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="secret" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\secret.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="confused-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\confused-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dissapointment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dissapointment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sad-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sad-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\thinking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wink-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\wink-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laughing-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\laughing-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alien-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\alien-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sceptic-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sceptic-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angry-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\angry-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vampire-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\vampire-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="surprised" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\surprised.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shocked-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\shocked-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gentleman-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\gentleman-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joyful-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\joyful-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tough-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\tough-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grubby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\grubby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ninja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\ninja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hipster-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\hipster-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laughing-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\laughing-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20161118_1900281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20161118_1900281.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angry-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\angry-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dead-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dead-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in-love-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\in-love-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dazed-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dazed-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="punk-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\punk-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creepy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\creepy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shocked-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\shocked-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baby-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\baby-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yawning-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\yawning-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\agent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superhero-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\superhero-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\faint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tired-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\tired-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girl-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\girl-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sceptic-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sceptic-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angry-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\angry-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crying-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\crying-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\happy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ginger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\ginger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitleds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitleds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\doctor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crying-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\crying-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goofy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\goofy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sick-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sick-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="surprised-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\surprised-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1496080748_basics-05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1496080748_basics-05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in-love-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\in-love-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desperate-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\desperate-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pirate-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\pirate-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sad-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sad-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="businessman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\businessman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiss-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\kiss-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dead-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dead-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sceptic-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sceptic-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skeleton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\skeleton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miserly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\miserly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\happy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="confused-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\confused-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\geek.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nerd-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\nerd-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crying-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\crying-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yawning-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\yawning-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\flirt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\emo-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="silent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\silent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sad-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sad-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gentleman-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\gentleman-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\alien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dazed-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\dazed-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sad-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sad-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\wink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smiling-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smiling-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiss-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\kiss-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goofy-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\goofy-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superhero-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\superhero-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relieved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\relieved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="regular_smile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regular_smile.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumbs-up-hand-symbol (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbs-up-hand-symbol (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smug-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\smug-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrogant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\arrogant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="burglar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\burglar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiss-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\kiss-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laughing-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\laughing-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sick-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\sick-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emoticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\emoticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speech-bubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speech-bubble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="punk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\punk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heisenberg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion\heisenberg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumbs-up-hand-symbol (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbs-up-hand-symbol (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

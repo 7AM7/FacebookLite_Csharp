@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B0D3E9BB-F418-419F-ACF7-78D591F8C1CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>19024497_1845431859043261_1681821961_o.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>.\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bubble.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="bubble.designer.cs">
+      <DependentUpon>bubble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClearWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClearWindow.Designer.cs">
+      <DependentUpon>ClearWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data.cs" />
+    <Compile Include="exListBox.cs" />
+    <Compile Include="exListBox.Designer.cs" />
+    <Compile Include="ExRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Friends.cs" />
+    <Compile Include="HomeTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeTab.Designer.cs">
+      <DependentUpon>HomeTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyWall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyWall.Designer.cs">
+      <DependentUpon>MyWall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Post.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Post.Designer.cs">
+      <DependentUpon>Post.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registerr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registerr.Designer.cs">
+      <DependentUpon>Registerr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="bubble.resx">
+      <DependentUpon>bubble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClearWindow.resx">
+      <DependentUpon>ClearWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeTab.resx">
+      <DependentUpon>HomeTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyWall.resx">
+      <DependentUpon>MyWall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Post.resx">
+      <DependentUpon>Post.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Registerr.resx">
+      <DependentUpon>Registerr.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumbs-up-hand-symbol %281%291.png" />
+    <None Include="Resources\regular_smile.gif" />
+    <None Include="Resources\speech-bubble.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\Untitleds.png" />
+    <None Include="Resources\Adele-2017-Wallpaper-10969.jpg" />
+    <None Include="Resources\happy.gif" />
+    <Content Include="19024497_1845431859043261_1681821961_o.ico" />
+    <Content Include="Resources\afro.png" />
+    <Content Include="Resources\emotion\afro-1.png" />
+    <Content Include="Resources\emotion\afro.png" />
+    <Content Include="Resources\emotion\agent.png" />
+    <Content Include="Resources\emotion\alien-1.png" />
+    <Content Include="Resources\emotion\alien.png" />
+    <Content Include="Resources\emotion\angel.png" />
+    <Content Include="Resources\emotion\angry-1.png" />
+    <Content Include="Resources\emotion\angry-2.png" />
+    <Content Include="Resources\emotion\angry-3.png" />
+    <Content Include="Resources\emotion\angry-4.png" />
+    <Content Include="Resources\emotion\angry-5.png" />
+    <Content Include="Resources\emotion\angry.png" />
+    <Content Include="Resources\emotion\arguing.png" />
+    <Content Include="Resources\emotion\arrogant.png" />
+    <Content Include="Resources\emotion\asian-1.png" />
+    <Content Include="Resources\emotion\asian.png" />
+    <Content Include="Resources\emotion\avatar.png" />
+    <Content Include="Resources\emotion\baby-1.png" />
+    <Content Include="Resources\emotion\baby-2.png" />
+    <Content Include="Resources\emotion\baby.png" />
+    <Content Include="Resources\emotion\bully.png" />
+    <Content Include="Resources\emotion\burglar.png" />
+    <Content Include="Resources\emotion\businessman.png" />
+    <Content Include="Resources\emotion\cheeky-1.png" />
+    <Content Include="Resources\emotion\cheeky.png" />
+    <Content Include="Resources\emotion\clown.png" />
+    <Content Include="Resources\emotion\confused-1.png" />
+    <Content Include="Resources\emotion\confused-2.png" />
+    <Content Include="Resources\emotion\confused-3.png" />
+    <Content Include="Resources\emotion\confused.png" />
+    <Content Include="Resources\emotion\creepy.png" />
+    <Content Include="Resources\emotion\crying-1.png" />
+    <Content Include="Resources\emotion\crying-2.png" />
+    <Content Include="Resources\emotion\crying-3.png" />
+    <Content Include="Resources\emotion\crying.png" />
+    <Content Include="Resources\emotion\dazed-1.png" />
+    <Content Include="Resources\emotion\dazed-2.png" />
+    <Content Include="Resources\emotion\dazed-3.png" />
+    <Content Include="Resources\emotion\dazed.png" />
+    <Content Include="Resources\emotion\dead-1.png" />
+    <Content Include="Resources\emotion\dead-2.png" />
+    <Content Include="Resources\emotion\dead-3.png" />
+    <Content Include="Resources\emotion\dead-4.png" />
+    <Content Include="Resources\emotion\dead-5.png" />
+    <Content Include="Resources\emotion\dead-6.png" />
+    <Content Include="Resources\emotion\dead.png" />
+    <Content Include="Resources\emotion\desperate-1.png" />
+    <Content Include="Resources\emotion\desperate.png" />
+    <Content Include="Resources\emotion\detective.png" />
+    <Content Include="Resources\emotion\dissapointment.png" />
+    <Content Include="Resources\emotion\doctor.png" />
+    <Content Include="Resources\emotion\drunk.png" />
+    <Content Include="Resources\emotion\dumb.png" />
+    <Content Include="Resources\emotion\emo-1.png" />
+    <Content Include="Resources\emotion\emo-2.png" />
+    <Content Include="Resources\emotion\emo.png" />
+    <Content Include="Resources\emotion\emoticon.png" />
+    <Content Include="Resources\emotion\evil.png" />
+    <Content Include="Resources\emotion\faint-1.png" />
+    <Content Include="Resources\emotion\faint.png" />
+    <Content Include="Resources\emotion\flirt-1.png" />
+    <Content Include="Resources\emotion\flirt-2.png" />
+    <Content Include="Resources\emotion\flirt.png" />
+    <Content Include="Resources\emotion\flirty.png" />
+    <Content Include="Resources\emotion\gangster.png" />
+    <Content Include="Resources\emotion\geek-1.png" />
+    <Content Include="Resources\emotion\geek.png" />
+    <Content Include="Resources\emotion\gentleman-1.png" />
+    <Content Include="Resources\emotion\gentleman-2.png" />
+    <Content Include="Resources\emotion\gentleman-3.png" />
+    <Content Include="Resources\emotion\gentleman-4.png" />
+    <Content Include="Resources\emotion\gentleman.png" />
+    <Content Include="Resources\emotion\ginger.png" />
+    <Content Include="Resources\emotion\girl-1.png" />
+    <Content Include="Resources\emotion\girl.png" />
+    <Content Include="Resources\emotion\goofy-1.png" />
+    <Content Include="Resources\emotion\goofy-2.png" />
+    <Content Include="Resources\emotion\goofy-3.png" />
+    <Content Include="Resources\emotion\goofy-4.png" />
+    <Content Include="Resources\emotion\goofy.png" />
+    <Content Include="Resources\emotion\grubby-1.png" />
+    <Content Include="Resources\emotion\grubby.png" />
+    <Content Include="Resources\emotion\happy-1.png" />
+    <Content Include="Resources\emotion\happy-10.png" />
+    <Content Include="Resources\emotion\happy-11.png" />
+    <Content Include="Resources\emotion\happy-12.png" />
+    <Content Include="Resources\emotion\happy-13.png" />
+    <Content Include="Resources\emotion\happy-14.png" />
+    <Content Include="Resources\emotion\happy-15.png" />
+    <Content Include="Resources\emotion\happy-16.png" />
+    <Content Include="Resources\emotion\happy-2.png" />
+    <Content Include="Resources\emotion\happy-3.png" />
+    <Content Include="Resources\emotion\happy-4.png" />
+    <Content Include="Resources\emotion\happy-5.png" />
+    <Content Include="Resources\emotion\happy-6.png" />
+    <Content Include="Resources\emotion\happy-7.png" />
+    <Content Include="Resources\emotion\happy-8.png" />
+    <Content Include="Resources\emotion\happy-9.png" />
+    <Content Include="Resources\emotion\happy.png" />
+    <Content Include="Resources\emotion\harry-potter.png" />
+    <Content Include="Resources\emotion\heisenberg.png" />
+    <Content Include="Resources\emotion\hipster-1.png" />
+    <Content Include="Resources\emotion\hipster-2.png" />
+    <Content Include="Resources\emotion\hipster.png" />
+    <Content Include="Resources\emotion\in-love-1.png" />
+    <Content Include="Resources\emotion\in-love-2.png" />
+    <Content Include="Resources\emotion\in-love-3.png" />
+    <Content Include="Resources\emotion\in-love-4.png" />
+    <Content Include="Resources\emotion\in-love-5.png" />
+    <Content Include="Resources\emotion\in-love-6.png" />
+    <Content Include="Resources\emotion\in-love.png" />
+    <Content Include="Resources\emotion\japan.png" />
+    <Content Include="Resources\emotion\jew.png" />
+    <Content Include="Resources\emotion\joyful-1.png" />
+    <Content Include="Resources\emotion\joyful-2.png" />
+    <Content Include="Resources\emotion\joyful.png" />
+    <Content Include="Resources\emotion\kiss-1.png" />
+    <Content Include="Resources\emotion\kiss-2.png" />
+    <Content Include="Resources\emotion\kiss-3.png" />
+    <Content Include="Resources\emotion\kiss-4.png" />
+    <Content Include="Resources\emotion\kiss.png" />
+    <Content Include="Resources\emotion\laughing-1.png" />
+    <Content Include="Resources\emotion\laughing-2.png" />
+    <Content Include="Resources\emotion\laughing-3.png" />
+    <Content Include="Resources\emotion\laughing.png" />
+    <Content Include="Resources\emotion\listening.png" />
+    <Content Include="Resources\emotion\love.png" />
+    <Content Include="Resources\emotion\manly.png" />
+    <Content Include="Resources\emotion\miserly-1.png" />
+    <Content Include="Resources\emotion\miserly.png" />
+    <Content Include="Resources\emotion\nerd-1.png" />
+    <Content Include="Resources\emotion\nerd-2.png" />
+    <Content Include="Resources\emotion\nerd-3.png" />
+    <Content Include="Resources\emotion\nerd-4.png" />
+    <Content Include="Resources\emotion\nerd.png" />
+    <Content Include="Resources\emotion\ninja.png" />
+    <Content Include="Resources\emotion\pirate-1.png" />
+    <Content Include="Resources\emotion\pirate-2.png" />
+    <Content Include="Resources\emotion\pirate.png" />
+    <Content Include="Resources\emotion\punk-1.png" />
+    <Content Include="Resources\emotion\punk-2.png" />
+    <Content Include="Resources\emotion\punk.png" />
+    <Content Include="Resources\emotion\rapper.png" />
+    <Content Include="Resources\emotion\relieved.png" />
+    <Content Include="Resources\emotion\rich-1.png" />
+    <Content Include="Resources\emotion\rich-2.png" />
+    <Content Include="Resources\emotion\rich.png" />
+    <Content Include="Resources\emotion\rockstar.png" />
+    <Content Include="Resources\emotion\sad-1.png" />
+    <Content Include="Resources\emotion\sad-2.png" />
+    <Content Include="Resources\emotion\sad-3.png" />
+    <Content Include="Resources\emotion\sad-4.png" />
+    <Content Include="Resources\emotion\sad-5.png" />
+    <Content Include="Resources\emotion\sad-6.png" />
+    <Content Include="Resources\emotion\sad.png" />
+    <Content Include="Resources\emotion\scared-1.png" />
+    <Content Include="Resources\emotion\scared-2.png" />
+    <Content Include="Resources\emotion\scared-3.png" />
+    <Content Include="Resources\emotion\scared.png" />
+    <Content Include="Resources\emotion\sceptic-1.png" />
+    <Content Include="Resources\emotion\sceptic-2.png" />
+    <Content Include="Resources\emotion\sceptic-3.png" />
+    <Content Include="Resources\emotion\sceptic-4.png" />
+    <Content Include="Resources\emotion\sceptic-5.png" />
+    <Content Include="Resources\emotion\sceptic-6.png" />
+    <Content Include="Resources\emotion\sceptic-7.png" />
+    <Content Include="Resources\emotion\sceptic.png" />
+    <Content Include="Resources\emotion\secret.png" />
+    <Content Include="Resources\emotion\shocked-1.png" />
+    <Content Include="Resources\emotion\shocked-2.png" />
+    <Content Include="Resources\emotion\shocked-3.png" />
+    <Content Include="Resources\emotion\shocked.png" />
+    <Content Include="Resources\emotion\sick-1.png" />
+    <Content Include="Resources\emotion\sick-2.png" />
+    <Content Include="Resources\emotion\sick-3.png" />
+    <Content Include="Resources\emotion\sick-4.png" />
+    <Content Include="Resources\emotion\sick.png" />
+    <Content Include="Resources\emotion\silent.png" />
+    <Content Include="Resources\emotion\skeleton.png" />
+    <Content Include="Resources\emotion\smile.png" />
+    <Content Include="Resources\emotion\smiling-1.png" />
+    <Content Include="Resources\emotion\smiling.png" />
+    <Content Include="Resources\emotion\smoked.png" />
+    <Content Include="Resources\emotion\smug-1.png" />
+    <Content Include="Resources\emotion\smug-2.png" />
+    <Content Include="Resources\emotion\smug-3.png" />
+    <Content Include="Resources\emotion\smug-4.png" />
+    <Content Include="Resources\emotion\smug-5.png" />
+    <Content Include="Resources\emotion\smug-6.png" />
+    <Content Include="Resources\emotion\smug.png" />
+    <Content Include="Resources\emotion\sporty.png" />
+    <Content Include="Resources\emotion\stunned.png" />
+    <Content Include="Resources\emotion\superhero-1.png" />
+    <Content Include="Resources\emotion\superhero-2.png" />
+    <Content Include="Resources\emotion\superhero-3.png" />
+    <Content Include="Resources\emotion\superhero-4.png" />
+    <Content Include="Resources\emotion\superhero.png" />
+    <Content Include="Resources\emotion\surprised-1.png" />
+    <Content Include="Resources\emotion\surprised.png" />
+    <Content Include="Resources\emotion\thinking.png" />
+    <Content Include="Resources\emotion\tired-1.png" />
+    <Content Include="Resources\emotion\tired-2.png" />
+    <Content Include="Resources\emotion\tired-3.png" />
+    <Content Include="Resources\emotion\tired.png" />
+    <Content Include="Resources\emotion\tough-1.png" />
+    <Content Include="Resources\emotion\tough.png" />
+    <Content Include="Resources\emotion\trendy.png" />
+    <Content Include="Resources\emotion\vampire-1.png" />
+    <Content Include="Resources\emotion\vampire.png" />
+    <Content Include="Resources\emotion\wink-1.png" />
+    <Content Include="Resources\emotion\wink-2.png" />
+    <Content Include="Resources\emotion\wink.png" />
+    <Content Include="Resources\emotion\winking-1.png" />
+    <Content Include="Resources\emotion\winking.png" />
+    <Content Include="Resources\emotion\yawning-1.png" />
+    <Content Include="Resources\emotion\yawning-2.png" />
+    <Content Include="Resources\emotion\yawning-3.png" />
+    <Content Include="Resources\emotion\yawning.png" />
+    <Content Include="Resources\emotion\yelling.png" />
+    <Content Include="Resources\emotion\zombie.png" />
+    <Content Include="Resources\like.png" />
+    <None Include="Resources\thumbs-up-hand-symbol %281%29.png" />
+    <None Include="Resources\FB_IMG_1475781151635.jpg" />
+    <None Include="Resources\IMG_20161118_1900281.jpg" />
+    <None Include="Resources\IMG_20161118_190028.jpg" />
+    <None Include="Resources\1496080748_basics-05.png" />
+    <None Include="images.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
